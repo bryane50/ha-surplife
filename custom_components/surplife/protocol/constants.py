@@ -16,7 +16,7 @@ MODEL_NUMBER: Final = 0xB6
 MODEL_INFO: Final = "ZG-BL-UFO"
 MODEL_NAME: Final = "Surplife Outdoor Permanent Lighting (0xB6)"
 MANUFACTURER: Final = "Zengge"
-MODEL_HW_VERSION: Final = "AK001-ZJ21413"
+MODEL_HW_VERSION: Final = "AK001-ZJ21411"
 
 # State frame layout (27-byte inner payload starting EA 81).
 STATE_HEAD: Final = b"\xea\x81"
