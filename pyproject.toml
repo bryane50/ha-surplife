@@ -3,13 +3,13 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "surplife"
+name = "surplife AA"
 version = "0.1.0"
-description = "Home Assistant integration for Surplife / Zengge 0xB6 outdoor permanent lighting"
+description = "Home Assistant integration for Surplife / Zengge 0xAA outdoor permanent lighting"
 readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
-authors = [{ name = "Yi Zhang", email = "asxzy@asxzy.net" }]
+authors = [{ name = "BE", email = "" }]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: End Users/Desktop",
@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/asxzy/ha-surplife"
+Repository = "https://github.com/bryane50/ha-surplife"
 
 [tool.setuptools]
 packages = [

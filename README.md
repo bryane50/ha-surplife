@@ -1,13 +1,15 @@
 # Surplife Permanent Lighting for Home Assistant
 
 A Home Assistant custom component that unlocks the **full** capability of
-Surplife / Zengge **0xB6** outdoor permanent lighting controllers
-(`AK001-ZJ21413`) on the local network — the feature set the stock `flux_led`
+Surplife / Zengge **0xAA** outdoor permanent lighting controllers
+(`AK001-ZJ21411`) on the local network — the feature set the stock `flux_led`
 integration deliberately does not expose.
+Branched from the ha-surplife project by asxzy. The 0xAA protocol exists on
+a wifi led controller made by Boufallo Labs.
 
 The stock integration drives these controllers fine for on/off, RGB, warm
 white and brightness, but it only offers the *generic* LEDENET effect list
-(`colorloop`, `red_fade`, …), which does essentially nothing useful on a 0xB6.
+(`colorloop`, `red_fade`, …), which does essentially nothing useful on a 0xAA.
 This component speaks the device's native `0xE1` command family instead:
 
 | Capability | Command | Status |
