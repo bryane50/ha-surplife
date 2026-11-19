@@ -4,10 +4,10 @@ from __future__ import annotations
 
 from typing import Final
 
-DOMAIN: Final = "surplife"
+DOMAIN: Final = "surplife_aa"
 
 MANUFACTURER: Final = "Zengge"
-MODEL: Final = "Surplife Outdoor Permanent Lighting (0xB6)"
+MODEL: Final = "Surplife Outdoor Permanent Lighting (0xAA)"
 
 CONF_MAC: Final = "mac"
 CONF_HW_VERSION: Final = "hw_version"
@@ -15,7 +15,7 @@ CONF_MODEL_INFO: Final = "model_info"
 CONF_FIRMWARE_INFO: Final = "firmware_info"
 CONF_LED_COUNT: Final = "led_count"
 
-DEFAULT_NAME: Final = "Surplife Light"
+DEFAULT_NAME: Final = "Surplife Light AA"
 DEFAULT_PORT: Final = 5577
 
 #: Pseudo-effect offered alongside the 24 real effects so the light card can

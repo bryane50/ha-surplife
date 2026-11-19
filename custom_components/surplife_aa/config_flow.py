@@ -482,7 +482,7 @@ class SurplifeConfigFlow(ConfigFlow, domain=DOMAIN):
             _LOGGER.debug("probe of %s failed: %s", host, err)
             errors["base"] = "cannot_connect"
 
-        if state is not None and state.model != 0xB6:
+        if state is not None and state.model != 0xAA:
             errors["base"] = "not_supported"
 
         if errors:

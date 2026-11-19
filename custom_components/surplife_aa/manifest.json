@@ -1,0 +1,15 @@
+{
+  "domain": "surplife_aa",
+  "name": "Surplife Permanent Lighting AA protocol",
+  "codeowners": [
+    "@be"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/bryane50/ha-surplife",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/bryane50/ha-surplife/issues",
+  "requirements": ["holidays==0.106", "babel==2.18.0"],
+  "version": "0.1.00"
+}
